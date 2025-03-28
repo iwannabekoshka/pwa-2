@@ -5,7 +5,7 @@ import { setupCounter } from './counter.js'
 import { initPWA } from './pwa.js'
 
 const app = document.querySelector('#app')
-app.innerHTML = `
+app.innerHTML = /*html*/`
   <div>
     <a href="https://vite.dev" target="_blank">
       <img src="${appLogo}" class="logo" alt="pwa-2 logo" />
@@ -13,7 +13,7 @@ app.innerHTML = `
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
-    <h1>pwa-2</h1>
+    <h1>pwa-22</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
